@@ -1,0 +1,32 @@
+@media screen and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+
+  #nav-bar {
+    margin-top: 20px;
+  }
+
+  #job-info {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    /* gap: 10%; */
+    padding: 0;
+    justify-content: space-around;
+  }
+  .img-cc {
+    width: 260px;
+  }
+  .cer-content {
+    flex-direction: column;
+  }
+  #project > .container {
+    padding: 30px;
+  }
+  tr td:first-child {
+    width: 60px;
+  }
+  .project-grid {
+    gap: 15px;
+  }
+}

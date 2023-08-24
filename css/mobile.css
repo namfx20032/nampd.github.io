@@ -1,0 +1,49 @@
+@media screen and (max-width: 767px) {
+
+    #nav-bar .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-grid {
+        display: block;
+    }
+    #job-info{
+        display: grid;
+        grid-template-columns: 100%;
+        /* gap: 10%; */
+        justify-content: space-around;
+    }
+    .job-node::before {
+        top: -6px;
+      }
+      .cer-grid{
+        grid-template-columns: 1fr;
+      }
+      .cer-content.cer-content2{
+        border-left: none;
+        padding-left: 0
+      }
+      .cer-content.cer-content3{
+        border: none;
+      }
+      .cer-content{
+        border-bottom: 2px solid #d6c08d;
+      }
+      .project-grid{
+        grid-template-columns: 1fr;
+      }
+      .section-title{
+        padding-left: 20px;
+      }
+      #project > .container{
+        padding: 0;
+    }
+    #footer a:link, a:visited,
+    #footer > div a {
+        line-height: 0;
+        font-size: 0;
+        color: transparent;
+    }
+
+}
